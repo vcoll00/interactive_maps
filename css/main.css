@@ -1,0 +1,45 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+  background: #FFF5DD;
+  color: #13069E;
+  font-family: 'Oswald','Futura','sans-serif';
+}
+
+
+#first_map {
+  margin: auto;
+  max-width: 800px;
+  height: 400px;
+  margin-top: 3rem;
+  border: 1px solid #EB9039;
+}
+
+#second_map {
+  margin: auto;
+  max-width: 900px;
+  height: 400px;
+  margin-top: 3rem;
+  border: 1px solid #EB9039;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    margin: auto;
+  }
+
+  #first_map {
+    width: 100%;
+  }
+
+  #first_map {
+    width: 100%;
+  }
